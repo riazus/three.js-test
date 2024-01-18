@@ -1,0 +1,29 @@
+{
+  "name": "ui-components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/fiber": "^8.15.14",
+    "react": "^18",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.10",
+    "@storybook/addon-interactions": "^7.6.10",
+    "@storybook/addon-links": "^7.6.10",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.10",
+    "@storybook/react": "^7.6.10",
+    "@storybook/react-vite": "^7.6.10",
+    "@storybook/test": "^7.6.10",
+    "@types/react": "^18",
+    "@types/three": "^0.160.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.10",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
